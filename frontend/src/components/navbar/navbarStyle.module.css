@@ -6,7 +6,7 @@
 
 .logodiv{
     width: 100%;
-    height: 90px;
+    height: 60px;
     /* background-color:rgba(215, 202, 202, 0.822); */
 
 }
@@ -19,13 +19,14 @@
     display: flex;
     align-items:center;
     justify-content: space-between;
-    /* background-color: blue; */
+    
 
 }
 
 /* logo */
 .logoBlock > img{
     width: 120px;
+    height: 60px;
     cursor: pointer;
     
 }
