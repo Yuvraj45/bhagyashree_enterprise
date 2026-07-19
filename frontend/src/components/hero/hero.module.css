@@ -32,16 +32,18 @@
 
 .heroOverlay{
     color: #0f2d62;
-    margin-top: 100px;  
+    margin-top: 50px;  
     
 }
 
 .heroOverlay > span{
     
-    color: #ff7a00;
+    color: #ea7507;
     display: inline-block;
     font-size: 18px;
     font-weight: 600;
+    text-shadow : 2px 2px 5px #ce5716;
+
     
 }
 
@@ -54,7 +56,7 @@
 }
 
 .heroOverlay p{
-    margin-top: 20px;
+    /* margin-top: 10px; */
     font-weight: 400;
     font-size: 16px;
 }
@@ -86,47 +88,71 @@
     background-color: #082d6d;
     color: white;
     
+    
 }
 .secondaryBtn{
     background-color: #ff6b00;
     color: white;
+    
+    
+}
+
+.primaryBtn:hover{
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(65, 30, 224, 0.855);
+    
+}
+.secondaryBtn:hover{
+   
+    transform: translatey(-3px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(235, 127, 4, 0.855);
 }
 
 /* feature cards */
 .features {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     margin-top: 30px;
+    
     
 }
 
 .featureCard{
-    width: 190px;
-    background-color:#fff;
+    width: 130px;
+    /* background-color:#fff; */
     border-radius: 15px;
     padding: 10px 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 18px;
-    box-shadow: 0 10px 25px rgba(0 , 0 , 0 , .08);
+    gap: 5px;
+    box-shadow: 0px 20px 25px rgba(0, 16, 2, 0.08);
     transition: .3s;
+   
+    
 }
 
-.featureCard h4{
+.featureCard span{
     
     font-size:12px;
     color:#082d6d;
     margin-top :0 0 6px 0;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
-.featureCard p{
-    margin: 0;
-    font-size: 10px;
-    color: #666;
-    
-    
-    
+.features .featureCard:last-child{
+    background-color:rgba(234, 235, 238, 0.12);
 }
+
+.textMar{
+    margin-top: -10px;
+
+}
+
+
 
 .featureCard:hover{
     transform: translate(-6px);

@@ -44,7 +44,7 @@ const Navbar = () => {
 
                 <span className={navbarStyle.location}>
                     <FaMapMarkerAlt></FaMapMarkerAlt>
-                    <a href="https://www.google.com/maps/place/Bhagyashree+Enterprises/@15.8920359,74.5028963,17z/data=!4m6!3m5!1s0x3bbf6172fcdd57e3:0xe5c578ffd372f72c!8m2!3d15.8919934!4d74.5027904!16s%2Fg%2F11ghqc2gt2?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D" target='_blank' rel='noopener noreferrer'>Belgaum</a>
+                    <a href="https://www.google.com/maps/place/Bhagyashree+Enterprises/@15.8920359,74.5028963,17z/data=!4m6!3m5!1s0x3bbf6172fcdd57e3:0xe5c578ffd372f72c!8m2!3d15.8919934!4d74.5027904!16s%2Fg%2F11ghqc2gt2?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D" target='_blank' rel='noopener noreferrer'>Reach Us</a>
 
                 </span>
 

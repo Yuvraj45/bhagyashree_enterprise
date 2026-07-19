@@ -1,12 +1,14 @@
 import React from 'react'
-import Navbar from './components/navbar/Navbar';
-import Hero from './components/hero/Hero';
+import Home from './pages/Home.jsx'
+
+
 
 const App = () => {
   return (
     <div>
-      <Navbar></Navbar>
-      <Hero></Hero>
+      <Home></Home>
+      
+      
     </div>
   )
 }
