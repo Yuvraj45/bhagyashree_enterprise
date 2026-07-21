@@ -1,0 +1,182 @@
+.mainSellBox{
+    width: 90%;
+    height: auto;
+    /* background-color:aliceblue;  */
+    margin: 0 auto;
+}
+
+.mainSellBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.FeaturePr{
+    color: #ea7507;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow : 2px 2px 5px #ce5716;
+    margin-top: 20PX;
+}
+
+.secondMainSpan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.secondTextStyle{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(16, 16, 92);
+    
+}
+    
+    
+.buttStyle{
+   
+    padding: 10px 30px;
+    
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ff6b00;
+    color: white;
+    
+    
+}
+
+.secondMainSpan button:hover{
+    transform: translatey(-3px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(235, 127, 4, 0.855);
+}
+
+
+/* product cards */
+
+
+/* .swiper and .swiper-slide are Swiper's global classes, not classes from your module.
+
+So these styles won't apply unless you make them global. */
+
+.sliderContainer{
+    position: relative;
+}
+.arrowBtn{
+
+    position:absolute;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    width:40px;
+    height:40px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:white;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    color:#ff6b00;
+
+    cursor:pointer;
+
+    z-index:100;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    transition:.3s;
+}
+
+.arrowBtn:first-of-type{
+    left:-25px;
+}
+
+.arrowBtn:last-of-type{
+    right:-25px;
+}
+
+.arrowBtn:first-of-type{
+    left:-25px;
+}
+
+:global(.swiper-button-prev),
+:global(.swiper-button-next){
+    display:none;
+}
+
+/* card style */
+.card{
+    background-color: white;
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    box-shadow:0px 5px 15px rgba(0, 0, 0, 0.08) ;
+    transition: 0.3s;
+
+    /* height: 470px; */
+}
+
+.card:hover{
+    transform: translatey(-6px);
+}
+
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit:contain;
+    margin-bottom: 10px;
+
+    /* display: block; */
+
+}
+
+.card h3{
+    
+    font-size: 18px;
+    color: #102348;
+    margin-bottom: 15px;
+    line-height: 28px;
+
+    /* margin-top: 20px; */
+    height: 90px;
+}
+
+.card h4{
+    font-size: 20px;
+    color: #102348;
+    margin-bottom: 20px;
+}
+
+.card button{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ea7507;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover{
+    background-color: #ff6b00;
+    color: white;
+}
+
