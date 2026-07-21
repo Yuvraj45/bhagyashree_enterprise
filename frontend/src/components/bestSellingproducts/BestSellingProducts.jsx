@@ -10,12 +10,12 @@ import "swiper/css/navigation";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 // Images
-import cement from "../../assets/cement.png";
-import paint from "../../assets/paint.png";
-import pipe from "../../assets/pipe.png";
-import iron from "../../assets/iron.png";
-import tap from "../../assets/tap.png";
-import commode from "../../assets/commode.png";
+import cement from "../../assets/bestSelling/cement1.png";
+import paint from "../../assets/bestSelling/paint1.png";
+import pipe from "../../assets/bestSelling/pipe1.png";
+import iron from "../../assets/bestSelling/iron1.png";
+import tap from "../../assets/bestSelling/tap1.png";
+import commode from "../../assets/bestSelling/commode1.png";
 
 const BestSellingProducts = () => {
   const products =[

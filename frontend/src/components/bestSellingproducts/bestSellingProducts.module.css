@@ -126,7 +126,7 @@ So these styles won't apply unless you make them global. */
     border-radius: 18px;
     padding: 20px;
     text-align: center;
-    box-shadow:0px 5px 15px rgba(0, 0, 0, 0.08) ;
+    box-shadow:0px 5px 15px rgba(1, 0, 0, 0.08) ;
     transition: 0.3s;
 
     /* height: 470px; */
