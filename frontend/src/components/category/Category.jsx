@@ -1,6 +1,6 @@
 import React from "react";
 import category from './categorystyle.module.css'
-import Cement from '../../assets/Cement.png'
+import Cement from '../../assets/Cementbag.png'
 import Paint from '../../assets/paint.png'
 import Pipe from '../../assets/Pipe.png'
 import Rod from '../../assets/Rod.png'
