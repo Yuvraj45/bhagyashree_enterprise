@@ -47,3 +47,103 @@
     color: rgb(175, 167, 167);
     
 }
+
+/* ===========================================
+   Responsive Design - Stats Section
+=========================================== */
+
+/* Laptop */
+@media (max-width:1200px){
+
+    .secondbox{
+        width:95%;
+    }
+
+    .stateText{
+        margin:15px;
+    }
+
+}
+
+/* Tablet */
+@media (max-width:992px){
+
+    .secondbox{
+        width:95%;
+        height:auto;
+        padding:25px 0;
+        flex-wrap:wrap;
+        gap:25px;
+        justify-content:center;
+    }
+
+    .stateCards{
+        width:45%;
+        justify-content:center;
+    }
+
+    .stateText{
+        margin:15px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .secondbox{
+        flex-direction:column;
+        height:auto;
+        padding:30px 0;
+        gap:25px;
+    }
+
+    .stateCards{
+        width:100%;
+        justify-content:center;
+    }
+
+    .stateImage{
+        width:28px;
+    }
+
+    .stateText{
+        margin-left:15px;
+        font-size:17px;
+    }
+
+    .stateText span:last-child{
+        font-size:15px;
+    }
+
+}
+
+/* Small Mobile */
+@media (max-width:480px){
+
+    .secondbox{
+        padding:25px 0;
+        gap:20px;
+    }
+
+    .stateCards{
+        flex-direction:column;
+        text-align:center;
+        gap:10px;
+    }
+
+    .stateText{
+        margin:0;
+        align-items:center;
+        font-size:16px;
+    }
+
+    .stateText span:last-child{
+        font-size:14px;
+    }
+
+    .stateImage{
+        width:32px;
+    }
+
+}

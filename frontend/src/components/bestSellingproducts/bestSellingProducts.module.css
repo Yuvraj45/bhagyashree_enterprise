@@ -1,11 +1,11 @@
-.mainSellBox{
-    width: 90%;
-    height: auto;
-    /* background-color:aliceblue;  */
-    margin: 0 auto;
-}
 
 .mainSellBox{
+    width: 90%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+
+
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -180,3 +180,121 @@ So these styles won't apply unless you make them global. */
     color: white;
 }
 
+/* ===========================================
+   Responsive Design
+=========================================== */
+
+/* Laptop */
+@media (max-width: 1200px){
+
+    .secondTextStyle{
+        font-size: 42px;
+    }
+
+}
+
+/* Tablet */
+@media (max-width: 992px){
+
+    .secondTextStyle{
+        font-size: 38px;
+    }
+
+    .buttStyle{
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+
+}
+
+/* Mobile Landscape */
+@media (max-width: 768px){
+
+    .secondMainSpan{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .secondTextStyle{
+        font-size: 32px;
+    }
+
+    .FeaturePr{
+        font-size: 16px;
+    }
+
+    .buttStyle{
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+
+    .arrowBtn{
+        display: none;
+    }
+
+    .card{
+        padding: 18px;
+    }
+
+    .card img{
+        height: 160px;
+    }
+
+    .card h3{
+        font-size: 17px;
+        line-height: 24px;
+        height: auto;
+    }
+
+    .card h4{
+        font-size: 18px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 576px){
+
+    .mainSellBox{
+        width: 95%;
+    }
+
+    .FeaturePr{
+        font-size: 15px;
+    }
+
+    .secondTextStyle{
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .buttStyle{
+        width: 100%;
+        justify-content: center;
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .card{
+        padding: 15px;
+    }
+
+    .card img{
+        height: 140px;
+    }
+
+    .card h3{
+        font-size: 16px;
+    }
+
+    .card h4{
+        font-size: 18px;
+    }
+
+    .card button{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+}

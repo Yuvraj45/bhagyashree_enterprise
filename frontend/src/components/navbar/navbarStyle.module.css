@@ -116,3 +116,120 @@
     color: #ff6b00;
     
 }
+
+
+/* ===========================================
+   Responsive Design - Navbar
+=========================================== */
+
+/* Laptop */
+@media (max-width: 1200px) {
+
+    .navLinks {
+        gap: 22px;
+    }
+
+    .navLinks li a {
+        font-size: 16px;
+    }
+
+    .contactSection {
+        gap: 20px;
+    }
+
+    .phoneText span:last-child {
+        font-size: 14px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+
+    .logoBlock {
+        width: 95%;
+    }
+
+    .navLinks {
+        gap: 16px;
+    }
+
+    .navLinks li a {
+        font-size: 15px;
+    }
+
+    .contactSection {
+        gap: 15px;
+    }
+
+    .phoneText span:first-child {
+        font-size: 12px;
+    }
+
+    .phoneText span:last-child {
+        font-size: 13px;
+    }
+
+    .phone svg,
+    .location svg {
+        font-size: 18px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .logodiv {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .logoBlock {
+        width: 95%;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .logoBlock > img {
+        width: 100px;
+        height: auto;
+    }
+
+    .navLinks {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .navLinks li a {
+        font-size: 15px;
+    }
+
+    .contactSection {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    .navLinks {
+        gap: 12px;
+    }
+
+    .navLinks li a {
+        font-size: 14px;
+    }
+
+    .phone,
+    .location {
+        font-size: 14px;
+    }
+
+    .phoneText span:last-child {
+        font-size: 12px;
+    }
+
+}

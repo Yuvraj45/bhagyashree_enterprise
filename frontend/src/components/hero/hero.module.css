@@ -165,3 +165,173 @@
     color: #082d6d;
 
 }
+
+
+/* ===========================================
+   Responsive Design - Hero Section
+=========================================== */
+
+/* Laptop */
+@media (max-width:1200px){
+
+    .rightSection{
+        width:95%;
+    }
+
+    .heroOverlay h1{
+        font-size:42px;
+    }
+
+    .features{
+        gap:15px;
+    }
+
+    .featureCard{
+        width:120px;
+    }
+
+    .primaryBtn,
+    .secondaryBtn{
+        font-size:16px;
+        padding:10px 24px;
+    }
+
+}
+
+/* Tablet */
+@media (max-width:992px){
+
+    .hero{
+        height:auto;
+        padding:60px 0;
+    }
+
+    .heroOverlay{
+        margin-top:20px;
+    }
+
+    .heroOverlay h1{
+        font-size:38px;
+    }
+
+    .heroOverlay p{
+        font-size:15px;
+        line-height:28px;
+    }
+
+    .features{
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+    .featureCard{
+        width:150px;
+    }
+
+    .heroButtons{
+        gap:15px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .hero{
+        height:auto;
+        padding:50px 0;
+        background-position:right;
+    }
+
+    .rightSection{
+        width:95%;
+    }
+
+    .heroOverlay{
+        margin-top:0;
+        text-align:center;
+    }
+
+    .heroOverlay>span{
+        font-size:16px;
+    }
+
+    .heroOverlay h1{
+        font-size:32px;
+        line-height:42px;
+    }
+
+    .heroOverlay p{
+        font-size:15px;
+        line-height:26px;
+    }
+
+    .heroOverlay p br{
+        display:none;
+    }
+
+    .features{
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:15px;
+    }
+
+    .featureCard{
+        width:140px;
+    }
+
+    .heroButtons{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    .primaryBtn,
+    .secondaryBtn{
+        width:220px;
+    }
+
+}
+
+/* Small Mobile */
+@media (max-width:480px){
+
+    .hero{
+        padding:40px 0;
+    }
+
+    .heroOverlay h1{
+        font-size:26px;
+        line-height:36px;
+    }
+
+    .heroOverlay p{
+        font-size:14px;
+        line-height:24px;
+    }
+
+    .features{
+        gap:12px;
+    }
+
+    .featureCard{
+        width:130px;
+        padding:12px;
+    }
+
+    .featureIcon{
+        font-size:36px;
+    }
+
+    .featureCard span{
+        font-size:12px;
+    }
+
+    .primaryBtn,
+    .secondaryBtn{
+        width:100%;
+        font-size:15px;
+        padding:12px;
+    }
+
+}
