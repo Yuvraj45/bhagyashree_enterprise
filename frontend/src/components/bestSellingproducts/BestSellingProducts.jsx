@@ -81,7 +81,7 @@ const BestSellingProducts = () => {
         <p className={productSty.FeaturePr}>FEATURED PRODUCTS</p>
 
         <div className={productSty.secondMainSpan}>
-          <h2 className={productSty.secondTextStyle}>Best Selling produdts</h2>
+          <h2 className={productSty.secondTextStyle}>Best Selling products</h2>
           <button className={productSty.buttStyle}>View All Products  <GoArrowRight></GoArrowRight></button>
         </div>
         
