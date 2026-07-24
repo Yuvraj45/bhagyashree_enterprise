@@ -1,32 +1,26 @@
-import React from 'react'
-import style from './f_brandstyle.module.css'
-import cement from '../../assets/BrandUltratechCement.png'
-import steel from '../../assets/BrandTataSteel.jpg'
-import pipes from '../../assets/BrandFinolex.png'
-import asianpaint from '../../assets/BrandAsianPaint.jpg'
-import jaguar from '../../assets/BrandJaguar.avif'
+import React from "react";
+import style from "./f_brandstyle.module.css";
 
-// this import is for css
-import Marquee from "react-fast-marquee";
+import cement from "../../assets/BrandUltratechCement.png";
+import steel from "../../assets/BrandTataSteel.jpg";
+import pipes from "../../assets/BrandFinolex.png";
+import asianpaint from "../../assets/BrandAsianPaint.jpg";
+import jaguar from "../../assets/BrandJaguar.avif";
+
+import * as MarqueeModule from "react-fast-marquee";
+
+// In your React 19 + Vite setup, the component is available at default.default
+const Marquee = MarqueeModule.default.default;
 
 const F_Brand = () => {
     const brands = [
-        {
-            image: cement
-        },
-        {
-            image: steel
-        },
-        {
-            image: pipes
-        },
-        {
-            image: asianpaint
-        },
-        {
-            image: jaguar
-        },
+        { image: cement },
+        { image: steel },
+        { image: pipes },
+        { image: asianpaint },
+        { image: jaguar },
     ];
+
     return (
         <div className={style.brandmainsection}>
             <section className={style.brandcontainer}>
@@ -38,7 +32,6 @@ const F_Brand = () => {
                     speed={40}
                     gradient={false}
                     pauseOnHover={true}
-                    direction="left"
                     autoFill={true}
                 >
                     {brands.map((item, index) => (
@@ -53,7 +46,7 @@ const F_Brand = () => {
                 </Marquee>
             </section>
         </div>
-    )
-}
+    );
+};
 
-export default F_Brand
+export default F_Brand;
